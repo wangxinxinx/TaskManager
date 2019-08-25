@@ -48,60 +48,64 @@ paintEvent函数中利用QPainter类在pixmap类上作图，用全局的数组pt
 ## 7.2.实验结果
 1. 系统信息模块
 该模块的运行结果如图7-1所示。
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%871.png)  
 图 7-1
+
 2. 进程信息模块
 该模块的运行结果如图7-2所示。当输入CD，并点击查询后，焦点定位到该进程所在的行，如图7-2所示。
-
-
-
-
-
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%872.png)   
 图 7-2
+
 然后点击结束进程按钮，系统弹出提示框，如图7-3所示。
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%873.png)  
 图 7-3
+
 选择yes，出现如图7-4所示对话框，表明已杀死该进程。
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%874.png)  
 图 7-4
+
 点击yes，发现进程总数减少了1个，如图7-5所示。
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%875.png)  
 图 7-5
+
 再次查询CD，系统提示该进程不存在，如图7-6所示。
-
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%876.png)  
 图 7-6
+
 3. 性能模块
 该模块的运行结果如图7-7所示，放大后的效果如图7-8所示。
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%877.png)  
 图 7-7
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%878.png)  
 图 7-8
+
 4. 状态栏模块
 该模块运行结果如图7-9所示。
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%879.png)  
 图 7-9
+
 5. 运行新进程模块
 该模块在菜单上的运行结果如图7-10所示。
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%8710.png)  
 图 7-10
 
 点击新建任务，出现如图7-11所示的对话框。
-
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%8711.png)  
 图 7-11
+
 选中TaskManager,发现又有一个任务管理器运行，如图7-12所示。
-
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%8712.png)  
 图 7-12
-若选择一个不可执行文件，出现如图7-13所示的错误提示。
 
+若选择一个不可执行文件，出现如图7-13所示的错误提示。
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%8713.png)  
 图 7-13
+
 6. 关机模块
 该模块在菜单栏上的运行结果如图7-14所示。
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%8714.png)  
 图 7-14
 
 为测试这三个功能，需要在终端先进入该进程所在的目录，然后输入sudo TaskManger。这时若选择关机，则系统关机；若选择重启，则系统重启；若选择挂起，则弹出如图7-15所示对话框，点击ok后系统会挂起用户选择的时间长度。
-
+![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%8715.png)  
 图 7-15
