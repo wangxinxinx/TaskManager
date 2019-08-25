@@ -54,50 +54,50 @@ paintEvent函数中利用QPainter类在pixmap类上作图，用全局的数组pt
 2. 进程信息模块  
     该模块的运行结果如图2所示。当输入CD，并点击查询后，焦点定位到该进程所在的行，如图2所示。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%872.png)   
-图 2
+图 2  
     然后点击结束进程按钮，系统弹出提示框，如图3所示。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%873.png)  
-图 3
+图 3  
 选择yes，出现如图4所示对话框，表明已杀死该进程。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%874.png)  
-图 4
+图 4  
 点击yes，发现进程总数减少了1个，如图5所示。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%875.png)  
-图 5
+图 5  
 再次查询CD，系统提示该进程不存在，如图6所示。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%876.png)  
-图 6
+图 6  
 
 3. 性能模块  
 该模块的运行结果如图7所示，放大后的效果如图8所示。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%877.png)  
-图 7
+图 7  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%878.png)  
-图 8
+图 8  
 
 4. 状态栏模块  
 该模块运行结果如图9所示。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%879.png)  
-图 9
+图 9  
 
 5. 运行新进程模块  
 该模块在菜单上的运行结果如图10所示。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%8710.png)  
-图 10
+图 10  
 点击新建任务，出现如图11所示的对话框。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%8711.png)  
-图 11
+图 11  
 选中TaskManager,发现又有一个任务管理器运行，如图12所示。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%8712.png)  
-图 12
+图 12  
 若选择一个不可执行文件，出现如图13所示的错误提示。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%8713.png)  
-图 13
+图 13  
 
 6. 关机模块  
 该模块在菜单栏上的运行结果如图14所示。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%8714.png)  
-图 14
+图 14  
 为测试这三个功能，需要在终端先进入该进程所在的目录，然后输入sudo TaskManger。这时若选择关机，则系统关机；若选择重启，则系统重启；若选择挂起，则弹出如图15所示对话框，点击ok后系统会挂起用户选择的时间长度。  
 ![image](https://github.com/wangxinxinx/TaskManager/blob/master/images/%E5%9B%BE%E7%89%8715.png)  
-图 15
+图 15  
