@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/icon">
+        <file>images/new.png</file>
+        <file>images/restart.png</file>
+        <file>images/shutdown.png</file>
+        <file>images/suspend.png</file>
+        <file>images/quit.png</file>
+    </qresource>
+</RCC>
